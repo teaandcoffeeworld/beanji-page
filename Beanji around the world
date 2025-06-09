@@ -1,0 +1,30 @@
+<!-- Brew Around the World Section -->
+<section style="background-color: #f3f2f1; padding: 2em; text-align: center;">
+  <h2>🌍 Explore the Brew Map with Beanji</h2>
+  <p style="max-width: 600px; margin: auto;">Follow Beanji's calm footsteps as he sips his way through global tea and coffee cultures. Click a country to read more.</p>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1em; margin-top: 2em;">
+    <a href="https://teaandcoffeoftheworld.blogspot.com/2025/06/tea-and-coffee-in-france.html" target="_blank" style="text-decoration: none;">
+      <div style="background: #fff; padding: 1em; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); width: 200px;">
+        🇫🇷 <strong>France</strong><br>
+        Espresso, salons, and sophisticated sips.
+      </div>
+    </a>
+    <a href="https://teaandcoffeoftheworld.blogspot.com/2025/06/tea-and-coffee-in-spain.html" target="_blank" style="text-decoration: none;">
+      <div style="background: #fff; padding: 1em; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); width: 200px;">
+        🇪🇸 <strong>Spain</strong><br>
+        Cortados, teterías, and mint rituals.
+      </div>
+    </a>
+    <a href="https://teaandcoffeoftheworld.blogspot.com/2025/06/tea-and-coffee-in-italy.html" target="_blank" style="text-decoration: none;">
+      <div style="background: #fff; padding: 1em; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); width: 200px;">
+        🇮🇹 <strong>Italy</strong><br>
+        Espresso, moka pots, and herbal tisanes.
+      </div>
+    </a>
+  </div>
+
+  <p style="margin-top: 2em; font-size: 0.9em; color: #666;">
+    More countries coming soon: Morocco, Japan, UK...
+  </p>
+</section>
