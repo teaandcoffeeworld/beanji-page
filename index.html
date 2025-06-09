@@ -1,15 +1,22 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>The Way of the Bean</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Meet Beanji, the brew-powered panda. Discover his rituals, read the blog, and shop the world of tea and coffee.">
+  <title>The Way of the Bean</title>
   <style>
     body { font-family: sans-serif; text-align: center; padding: 2em; background: #f9f6f1; }
-    h1 { font-size: 2em; }
+    h1, h2 { color: #4c342a; }
     .btn { display: inline-block; margin: 1em; padding: 1em 2em; background: #4c342a; color: #fff; text-decoration: none; border-radius: 8px; }
+    .map-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1em; margin-top: 2em; }
+    .map-item { background: #fff; padding: 1em; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); width: 200px; text-align: left; }
+    footer { margin-top: 3em; font-size: 0.9em; color: #555; }
   </style>
 </head>
 <body>
+
   <h1>🐼 The Way of the Bean</h1>
   <p>Meet Beanji — calm master, coffee disciple, and cartoon legend of flavor and focus.</p>
 
@@ -17,6 +24,30 @@
   <a class="btn" href="https://teaandcoffeoftheworld.blogspot.com" target="_blank">📖 Read the Blog</a>
   <a class="btn" href="https://ai.invideo.io/ai-video?video=meet-beanji-the-brewed-panda-cxeawz" target="_blank">🎬 Watch the Reel</a>
 
-  <p style="margin-top: 3em; font-size: 0.9em; color: #555;">Created with 💛 by Tea & Coffee of the World</p>
+  <section style="background-color: #f3f2f1; padding: 2em; margin-top: 4em;">
+    <h2>🌍 Explore the Brew Map with Beanji</h2>
+    <p style="max-width: 600px; margin: auto;">Follow Beanji's calm footsteps as he sips his way through global tea and coffee cultures. Click a country to read more.</p>
+
+    <div class="map-grid">
+      <a href="https://teaandcoffeoftheworld.blogspot.com/2025/06/tea-and-coffee-in-france.html" target="_blank" style="text-decoration: none;">
+        <div class="map-item">🇫🇷 <strong>France</strong><br>Espresso, salons, and sophisticated sips.</div>
+      </a>
+      <a href="https://teaandcoffeoftheworld.blogspot.com/2025/06/tea-and-coffee-in-spain.html" target="_blank" style="text-decoration: none;">
+        <div class="map-item">🇪🇸 <strong>Spain</strong><br>Cortados, teterías, and mint rituals.</div>
+      </a>
+      <a href="https://teaandcoffeoftheworld.blogspot.com/2025/06/tea-and-coffee-in-italy.html" target="_blank" style="text-decoration: none;">
+        <div class="map-item">🇮🇹 <strong>Italy</strong><br>Espresso, moka pots, and herbal tisanes.</div>
+      </a>
+    </div>
+
+    <p style="margin-top: 2em; font-size: 0.9em; color: #666;">
+      More countries coming soon: Morocco, Japan, UK...
+    </p>
+  </section>
+
+  <footer>
+    Created with 💛 by Tea & Coffee of the World
+  </footer>
+
 </body>
 </html>
